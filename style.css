@@ -1,0 +1,162 @@
+.container{
+    background-color: rgba(206, 142, 46, 0.582);
+}
+.hero{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+.hero .li a{
+    padding: 5px;
+    justify-content: space-between;
+    margin: 10px;
+    text-decoration: none;
+    color: rgba(207, 74, 33, 0.993);
+    font-size: 20px;
+    font-weight: 600;
+    
+    
+
+
+}
+.hero a:hover{
+    color: rgb(95, 14, 14);
+    border: 1px solid;
+    border-color: rgb(134, 31, 12);
+    text-decoration: none;
+       color: rgb(139, 49, 21); 
+       margin: 25px;
+      font-weight: 600; 
+      transition: .4s ease;
+      cursor: pointer;
+    
+}
+.hero .logo{
+    width: 90px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid;
+    border-color: black;
+    
+}
+.body{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-bottom: 200px;
+
+    
+}
+.img1{
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    
+   
+    margin-bottom: 88px;
+    padding-bottom: 95px;
+
+    
+}
+.container .top{
+    background-image: url(./images/sachinmain2.jpg);
+    
+    background-size: cover;
+}
+
+.bio{
+    margin-bottom: 190px;
+    color: rgb(133, 60, 27);
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.details p{
+    background-color: rgb(192, 101, 65);
+    margin-top: -200px;
+    margin-bottom: 400px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(167, 56, 48);
+    font-family: 'Caveat', cursive;
+    padding-left: 557px;
+    padding-right: 25px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.details p{
+    background-image: url(./images/sachin\ new.png);
+}
+
+   
+
+
+.container .hero{
+    position: sticky;
+    top: 20px;
+}
+
+.vid{
+    text-align: right;
+    margin-top: -350px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.vid iframe{
+    width:100%; height:700px;
+    border: 10px solid rgba(95, 32, 7, 0.671);
+    
+  }
+  
+.vid iframe:hover{
+    border: 1px solid #FF0000;
+  }
+
+  .personel{
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/kisspng-sachin-tendulkar-india-national-cricket-team-mumba-sachin-tendulkar-5a71a8489b1183.4371501415173980886352.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+
+  .personel .container{
+    text-align: left;
+    background-color:rgba(206, 142, 46, 0.582);
+    border-left-width: 35px;
+    margin-left: 450px;
+    margin-top: 240.72;
+    color: rgb(170, 51, 4);
+    padding: 100px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    text-align: center;
+    
+  }
+
+
+  .footer h2{
+    width: 20p;
+font-size: 50px;
+font-family: 'Anton', sans-serif;
+color: rgb(104, 27, 27);
+  }
+
+  .footer{
+    padding: 40px;
+  }
